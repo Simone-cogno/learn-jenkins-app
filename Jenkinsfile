@@ -43,7 +43,6 @@ pipeline {
                         }
                     }
                 }
-                }
 
                 stage('E2E Tests'){
                     agent {
@@ -66,9 +65,9 @@ pipeline {
                         }
                     }
                 }
-                }
             }
         }
     }
+}
 
     
